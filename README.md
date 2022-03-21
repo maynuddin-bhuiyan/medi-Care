@@ -154,6 +154,11 @@ Github Server SiteLink is https://github.com/uxmain/mediCareServer
 
 One More Thing,
 
+
+#Thinking message for you
+-------------------------
+
+
 Thank You,
 
 for your time and consideration. I look forward to speaking with you about your project.
