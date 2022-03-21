@@ -24,8 +24,8 @@ const Help = () => {
     return (
         <div className='Container'>
             <Link className='BackIcon DefultColor' to='/'>
-            <ArrowBackIosNewIcon sx={{color: "#F98506"}}  />  <span className='DefultColor'>MediCare</span>
-</Link>
+                <ArrowBackIosNewIcon sx={{ color: "#F98506" }} />  <span className='DefultColor'>MediCare</span>
+            </Link>
             <h1>Help</h1>
 
             <h2>FAQs</h2>
@@ -74,7 +74,7 @@ const Help = () => {
                     <Typography sx={{ color: 'text.secondary' }}>
                         Checking/changing your password
                     </Typography>
-                </AccordionSummary>
+                </AccordionSummary> 
 
                 <AccordionDetails>
                     <Typography>

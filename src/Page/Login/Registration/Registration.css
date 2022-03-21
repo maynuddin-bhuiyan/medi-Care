@@ -1,16 +1,32 @@
-.Registration{
+.Registration {
     background-color: blue;
     color: aliceblue;
     padding: 50px;
 }
 
 
-form{
+form {
     text-align: center;
 }
 
 
-.outText{
+.outText {
     text-align: center;
     margin-top: 30px;
+}
+
+
+
+.Registration .ButtonGroup {
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .Registration .ButtonGroup {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }

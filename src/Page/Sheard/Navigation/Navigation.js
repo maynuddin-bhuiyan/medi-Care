@@ -19,101 +19,101 @@ import useAuth from '../../Hooks/useAuth';
 
 
 const Navigation = () => {
-    const [age, setAge] = React.useState('');
+  const [age, setAge] = React.useState('');
 
-    const {user, logOutUser} = useAuth();
+  const { user, logOutUser } = useAuth();
 
   const handleChange = (event) => {
     setAge(event.target.value);
   };
 
 
-    return (
-        <div className='Container'>
-        <Box sx={{ flexGrow: 1, padding: '0px'}}>
-      <AppBar sx={{backgroundColor: '#FFFFFF', boxShadow: 'none',  color: '#000000', position: 'relative', }} position="static">
-        <Toolbar sx={{padding: '0px !important'}}>
+  return (
+    <div className='Container'>
+      <Box sx={{ flexGrow: 1, padding: '0px' }}>
+        <AppBar sx={{ backgroundColor: '#FFFFFF', boxShadow: 'none', color: '#000000', position: 'relative', }} position="static">
+          <Toolbar sx={{ padding: '0px !important' }}>
 
             <Typography className='LogoImg'>
-                <img src={logo} alt="" />
+              <img src={logo} alt="" />
             </Typography>
-          
-            
-          
-          <Typography  className='ListItam'>
-             <ul>
-                 <li><h6>Home</h6></li>
-
-                 <HashLink className='ItamBottom' to="#about"><li><h6>About</h6></li></HashLink>
-            <HashLink className='ItamBottom' to="#labTest"><li><h6>LabTest</h6></li></HashLink>
-            <HashLink className='ItamBottom' to="#dreams"><li><h6>Opportunity</h6></li></HashLink>
-
-            {
-
-
-user?.email ?
-  <Button sx={{marginLeft: "20px", border: "none", backgroundColor: "#F98506", color: "#000000"}} className="Itam-login" variant="outlined" onClick={logOutUser}> LogOut</Button>
-
-  :
-
-  <li></li> 
 
 
 
+            <Typography className='ListItam'>
+              <ul>
+                <li><h6>Home</h6></li>
 
-}
-            
-                 
-             </ul>
-          </Typography>
+                <HashLink className='ItamBottom' to="#about"><li><h6>About</h6></li></HashLink>
+                <HashLink className='ItamBottom' to="#labTest"><li><h6>LabTest</h6></li></HashLink>
+                <HashLink className='ItamBottom' to="#dreams"><li><h6>Opportunity</h6></li></HashLink>
+
+                {
+
+
+                  user?.email ?
+                    <Button sx={{ marginLeft: "20px", border: "none", backgroundColor: "#F98506", color: "#000000", padding: "10px" }} className="Itam-login" variant="outlined" onClick={logOutUser}> LogOut</Button>
+
+                    :
+
+                    <li></li>
 
 
 
 
+                }
 
 
-<Paper className='Search'
-      component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 350, height: "25px", overflow: "hidden", padding: '5px' }}
-    >
-      
-      <Select sx={{ border: '2px solid #F98506', padding: '0px', marginLeft: '-8px' }}
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          
-          value={age}
-          onChange={handleChange}
-        >
-          <MenuItem value={10}>Doctor List</MenuItem>
-          <MenuItem value={20}>Find a Doctor</MenuItem>
-          <MenuItem value={30}>Family Medicine</MenuItem>
-        </Select>
-        
-<InputBase
-        sx={{ ml: 1, flex: 1 }}
-        placeholder="Search An Opportunities"
-        inputProps={{ 'aria-label': 'search google maps' }}
-      />
+              </ul>
+            </Typography>
 
 
 
-      <IconButton  >
-        
-      </IconButton>
-      
-      
-      
-      <IconButton  type="submit" sx={{  backgroundColor: '#FFFFFF', borderRadius: '0px', padding: '10px', marginRight: '-8px' }} aria-label="search">
-      <SearchIcon />
-      </IconButton>
 
-    </Paper>
 
-        </Toolbar>
-      </AppBar>
-    </Box>
+
+            <Paper className='Search'
+              component="form"
+              sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 350, height: "25px", overflow: "hidden", padding: '5px' }}
+            >
+
+              <Select sx={{ border: '2px solid #F98506', padding: '0px', marginLeft: '-8px' }}
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+
+                value={age}
+                onChange={handleChange}
+              >
+                <MenuItem value={10}>Doctor List</MenuItem>
+                <MenuItem value={20}>Find a Doctor</MenuItem>
+                <MenuItem value={30}>Family Medicine</MenuItem>
+              </Select>
+
+              <InputBase
+                sx={{ ml: 1, flex: 1 }}
+                placeholder="Search An Opportunities"
+                inputProps={{ 'aria-label': 'search google maps' }}
+              />
+
+
+
+              <IconButton  >
+
+              </IconButton>
+
+
+
+              <IconButton type="submit" sx={{ backgroundColor: '#FFFFFF', borderRadius: '0px', padding: '10px', marginRight: '-8px' }} aria-label="search">
+                <SearchIcon />
+              </IconButton>
+
+            </Paper>
+
+          </Toolbar>
+        </AppBar>
+      </Box>
     </div>
-    );
+  );
 };
 
 export default Navigation;

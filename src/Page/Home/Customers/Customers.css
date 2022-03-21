@@ -1,9 +1,9 @@
-.Customer{
+.Customer {
     text-align: center;
     position: relative;
 }
 
-.Customer h5{
+.Customer h5 {
     font-size: 20px;
     font-weight: 400;
     font-family: Poppins;
@@ -31,7 +31,7 @@
 
 
 
-.CustomerBanner{
+.CustomerBanner {
     background-image: url(../../../images/Customers/Customers.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -40,6 +40,12 @@
     height: 600px;
     border-radius: 10px;
     margin: 50px;
+    position: relative;
 }
 
 
+.CustomerBanner img {
+    position: absolute;
+    top: 130px;
+    left: 600px;
+}

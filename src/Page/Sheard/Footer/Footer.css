@@ -1,17 +1,60 @@
-.Footer{
+.Footer {
     background-color: #F2F2F2;
 }
 
-.FooterText{
+.FooterText {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
-   
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+
+}
+
+
+.FooterText h4 {
+    font-size: 25px;
 }
 
 
 .Contact .Logo img {
-    width: 300px;
-    height: 150px;
-    margin-left: -100px;
+    width: 150px;
+    height: 100px;
+    margin-left: -40px;
+}
+
+
+.Contact .Number {
+    float: left;
+}
+
+
+.Contact .Number p {
+    float: right;
+    margin-left: 25px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 270px;
+}
+
+
+.Contact .Mail p {
+    float: right;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 270px;
+}
+
+
+.OutBack {
+    background-color: #017a1b;
+    padding: 10px;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

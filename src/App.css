@@ -1,29 +1,33 @@
-body{
+/* Comming Css */
+
+
+
+body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   font-family: Sinhala Sangam MN;
-  
+
 }
 
-.Container{
+.Container {
   width: 1300px;
   padding: 0px !important;
   margin: 0 auto;
-  
+
 }
 
 
-.MarginButtom{
+.MarginButtom {
   margin-bottom: 100px;
 }
 
 
-.DefultColor{
+.DefultColor {
   color: #F98506;
 }
 
-h1{
+h1 {
   font-size: 40px;
   font-weight: 700;
   font-family: Poppins;
@@ -42,13 +46,13 @@ h1{
 }
 
 
-.BackIcon{
+.BackIcon {
   color: #FFFFFF;
   font-size: 20px;
   text-decoration: none;
 }
 
 
-.ItamBottom{
+.ItamBottom {
   text-decoration: none;
 }

@@ -1,11 +1,11 @@
-.PrivacyPolicy{
+.PrivacyPolicy {
     padding: 100px 50px 100px 200px;
     font-family: Sinhala Sangam MN;
 }
 
 
 
-.NewIcon{
+.NewIcon {
     position: absolute;
     top: 0;
     left: 0;
@@ -14,22 +14,22 @@
 
 
 
-.Privacy{
+.Privacy {
     width: 900px;
     margin-top: 50px;
 }
 
 
 
-.Privacy p{
+.Privacy p {
     color: #1c1d1f;
     font-size: 15px;
-    
+
 }
 
 
 
-.Policy{
+.Policy {
     width: 500px;
     margin-top: 50px;
 }
@@ -43,12 +43,12 @@
 
 
 
-.Policy-Text{
+.Policy-Text {
     width: 700px;
     margin-top: 50px;
 }
 
-.Answers{
+.Answers {
     width: 800px;
     margin-top: 50px;
 }
@@ -60,11 +60,11 @@
     margin-bottom: 20px;
 }
 
-.Answers .Data{
+.Answers .Data {
     margin-bottom: 50px;
 }
 
-.text{
+.text {
     width: 700px;
     margin-top: 100px;
 }

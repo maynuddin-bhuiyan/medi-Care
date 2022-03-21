@@ -18,7 +18,7 @@ const Properties = () => {
         fetch(`https://fierce-hamlet-51364.herokuapp.com/properties?page=${page}&&size=${size}`)
             .then(res => res.json())
             .then(data => {
-                setProducts(data.products);                
+                setProducts(data.products);
                 const count = data.count;
                 const pageNumber = Math.ceil(count / size);
                 setPageCount(pageNumber)
@@ -34,14 +34,14 @@ const Properties = () => {
         <div id='medicine' className='Container MarginButtom'>
 
             <div className="Properties">
-                
-            <h1>Some of our available and 
-            Top Searched Specialties</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+
+                <h1>Some of our available and
+                    Top Searched Specialties</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
             </div>
 
             <div className="Propertie">
-            {
+                {
                     properties.map(properties => <Propertie
 
                         key={properties._id}
@@ -54,17 +54,17 @@ const Properties = () => {
 
             <div className="pagenation">
 
-                        {
-                            [...Array(pageCount).keys()]
-                            .map(number => <button
+                {
+                    [...Array(pageCount).keys()]
+                        .map(number => <button
                             className={number === page ? 'selated' : ''}
                             key={number}
                             onClick={() => setPage(number)}
-                            >{number}</button>)
-                        }
+                        >{number}</button>)
+                }
 
-             </div>        
             </div>
+        </div>
     );
 };
 

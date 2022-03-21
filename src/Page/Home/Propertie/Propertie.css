@@ -1,18 +1,18 @@
-.PropertieItam{
+.PropertieItam {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     cursor: pointer;
     margin-bottom: 50px;
-    
+
 }
 
-.PropertieItam h3{
+.PropertieItam h3 {
     display: inline-block;
 }
 
-.PropertieItam img{
+.PropertieItam img {
     width: 100%;
     height: 400px;
 }

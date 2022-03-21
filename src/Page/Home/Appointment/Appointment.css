@@ -1,4 +1,4 @@
-.Appointment{
+.Appointment {
     margin-bottom: 100px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 
-.AppointmentText{
+.AppointmentText {
     background-image: url(../../../images/Clint/Subtraction\ 3.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -26,24 +26,14 @@
 }
 
 
-
-.InputField input{
-    color: #FFFFFF;
-
-}
-
-.InputField label{
-    color: #f98506;    
-    font-size: 15px ;
-    font-weight: 500 ;
-    font-family: Poppins;
-     
-   
-   
-
+.InputField img {
+    width: 100%;
+    margin-left: -50px;
 }
 
 
-.AppointmentText .Button:hover {
-    background-color: inherit !important ;
+
+.Appointment .Button:hover {
+    background-color: inherit !important;
+    color: #FFFFFF !important;
 }

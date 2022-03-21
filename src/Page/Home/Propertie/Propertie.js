@@ -5,17 +5,15 @@ import './Propertie.css';
 
 const Propertie = (props) => {
 
-    const{id,name,img,price,reviews} = props.propertie;
+  const { id, name, img, price, reviews } = props.propertie;
 
-    console.log(props.propertie);
-
-
-    const navigate = useNavigate();
-    function detailsPropertie() {
-      navigate(`propertieDetails/${id}`);
-    }
+  console.log(props.propertie);
 
 
+  const navigate = useNavigate();
+  function detailsPropertie() {
+    navigate(`propertieDetails/${id}`);
+  }
 
 
 
@@ -26,32 +24,34 @@ const Propertie = (props) => {
 
 
 
-    
 
-    return (
-        <div className='PropertieItam' onClick={
-            () => {
-              detailsPropertie(id);
-            }}> 
 
-            <div className="PropertieImage">
 
-            <img src={img} alt="" />
-            </div>
 
-            <div className="PropertieText">
+  return (
+    <div className='PropertieItam' onClick={
+      () => {
+        detailsPropertie(id);
+      }}>
 
-            <h3> {name}</h3>
-            <h2>Reviews: {reviews}</h2>
-            <p>{price} $</p>
+      <div className="PropertieImage">
 
-            <Button className='Button' onClick={
-            () => {
-              detailsPropertie(id);
-            }}>Read More</Button>
-            </div>
-        </div>
-    );
+        <img src={img} alt="" />
+      </div>
+
+      <div className="PropertieText">
+
+        <h3> {name}</h3>
+        <h2>Reviews: {reviews}</h2>
+        <p>{price} $</p>
+
+        <Button className='Button' onClick={
+          () => {
+            detailsPropertie(id);
+          }}>Read More</Button>
+      </div>
+    </div>
+  );
 };
 
 export default Propertie;

@@ -13,30 +13,30 @@ function App() {
   return (
     <div className="App">
       <Authprovider>
-      
-      <BrowserRouter>
-      <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      
-      <Route path="/login" element={<Login />} />
-      <Route path="/registration" element={<Registration />} />
-     
-      <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
-      <Route path="/help" element={<Help />} />
-      <Route path="/propertieDetails/:id" element={<PrivateRoute> <PropertieDetails /> </PrivateRoute>} />
 
-      
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
 
-      
+            <Route path="/login" element={<Login />} />
+            <Route path="/registration" element={<Registration />} />
+
+            <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/propertieDetails/:id" element={<PrivateRoute> <PropertieDetails /> </PrivateRoute>} />
 
 
 
 
 
-      </Routes>
-      
-      </BrowserRouter>
+
+
+
+
+          </Routes>
+
+        </BrowserRouter>
       </Authprovider>
 
 

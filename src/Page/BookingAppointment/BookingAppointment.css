@@ -1,0 +1,11 @@
+.BookingAppointment .InputField input {
+    color: #FFFFFF;
+
+}
+
+.BookingAppointment .InputField label {
+    color: #f98506;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Poppins;
+}

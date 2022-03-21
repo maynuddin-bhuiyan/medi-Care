@@ -9,12 +9,12 @@
     display: flex;
     position: absolute;
     top: 80px;
-    right: 0px; 
+    right: 0px;
     width: 550px;
- }
+}
 
 
-.ListItam ul li{
+.ListItam ul li {
     color: #000000;
     display: flex;
     text-decoration: none;
@@ -25,25 +25,23 @@
 }
 
 
-.ListItam ul li h6{
+.ListItam ul li h6 {
     margin: 0px;
     padding: 0px;
     cursor: pointer;
     transition: linear .4s;
-    
+
 }
 
 
-.ListItam ul li h6:hover{
+.ListItam ul li h6:hover {
     color: #F98506;
 }
 
 
-.Search{
+.Search {
     position: absolute;
     top: 30px;
     right: 10px;
     border: 2px solid #F98506;
 }
-
-

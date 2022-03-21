@@ -162,7 +162,7 @@ const Registration = () => {
             </Alert>}
 
 
-            <ButtonGroup sx={{ marginLeft: "650px" }}>
+            <ButtonGroup className='ButtonGroup'>
 
                 <Button onClick={handelOnClickGoogle} sx={{ width: '50%', border: 'none' }} type="Submit"><GoogleIcon /> </Button>
                 <Button onClick={handelOnClickFacebook} sx={{ width: '50%', border: 'none' }} type="Submit"> <FacebookIcon /> </Button>
