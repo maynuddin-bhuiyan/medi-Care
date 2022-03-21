@@ -155,7 +155,7 @@ Github Server SiteLink is https://github.com/uxmain/mediCareServer
 One More Thing,
 
 
-#Thinking message for you
+#Thanking message for you
 -------------------------
 
 
