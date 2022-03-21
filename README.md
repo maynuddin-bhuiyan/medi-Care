@@ -145,8 +145,8 @@ And Server Site  LiveSiteLink. https://fierce-hamlet-51364.herokuapp.com/propert
 
 
 
-Github Clint SiteLink is https://github.com/uxmain/Book-Man
-Github Server SiteLink is https://github.com/uxmain/Book-server
+Github Clint SiteLink is https://github.com/uxmain/medi-Care
+Github Server SiteLink is https://github.com/uxmain/mediCareServer
 
 
 
