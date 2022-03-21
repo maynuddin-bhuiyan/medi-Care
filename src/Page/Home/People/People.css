@@ -1,0 +1,42 @@
+.People{
+    margin-bottom: 100px;
+}
+
+
+
+.People h5 {
+    color: #FFFFFF;
+    font-family: Sinhala Sangam MN;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.PeopleText{
+    background-image: url(../../../images/People/Subtraction\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95px;
+    margin-bottom: 50px;
+}
+
+
+
+.PeoplePhoto {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.PeopleImage {
+    float: left;
+    width: 25%;
+}
+
+.PeopleImage img {
+    width: 120px;
+    padding: 20px;
+    height: 50px;
+}

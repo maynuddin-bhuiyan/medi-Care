@@ -1,0 +1,45 @@
+.Customer{
+    text-align: center;
+    position: relative;
+}
+
+.Customer h5{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+
+
+
+.Customer .image1 img {
+    position: absolute;
+    top: 15px;
+    left: 27%;
+    width: 135px;
+    padding: 2px;
+}
+
+
+.Customer .image2 img {
+    position: absolute;
+    top: 15px;
+    right: 27%;
+    width: 135px;
+    padding: 2px;
+}
+
+
+
+.CustomerBanner{
+    background-image: url(../../../images/Customers/Customers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+

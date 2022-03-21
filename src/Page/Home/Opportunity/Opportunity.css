@@ -1,0 +1,43 @@
+.Opportunity p{
+    font-size: 25px;
+    color: #000000;
+    width: 725px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.OpportunityImage{
+    position: relative;
+}
+
+
+.OpportunityImage img{
+    width: 100%;
+    
+}
+
+
+
+
+.OpportunityText p {
+    font-size: 23px;
+    font-weight: 400;
+    color: #000000;
+    width: 100%;
+}
+
+
+
+
+
+
+.OpportunityShadow img {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: -82px;
+    right: -85px;
+    z-index: -1;
+}

@@ -1,0 +1,49 @@
+.Appointment{
+    margin-bottom: 100px;
+}
+
+
+
+.Appointment h5 {
+    color: #FFFFFF;
+    font-family: Sinhala Sangam MN;
+    margin-left: 80px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.AppointmentText{
+    background-image: url(../../../images/Clint/Subtraction\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.InputField input{
+    color: #FFFFFF;
+
+}
+
+.InputField label{
+    color: #f98506;    
+    font-size: 15px ;
+    font-weight: 500 ;
+    font-family: Poppins;
+     
+   
+   
+
+}
+
+
+.AppointmentText .Button:hover {
+    background-color: inherit !important ;
+}

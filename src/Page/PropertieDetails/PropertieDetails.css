@@ -1,0 +1,15 @@
+.DetailsItam .Container .Details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+
+.DetailsText{
+    margin: 100px 0px 100px 50px;
+}
+
+
+.Description{
+    margin-bottom: 45px;
+}

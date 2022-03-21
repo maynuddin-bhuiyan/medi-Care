@@ -1,0 +1,197 @@
+.Container .TextBox h1 {
+    width: 570px;
+    font-size: 75px;
+    color: #F98506;
+    font-weight: 700;
+    text-align: left;
+    font-family: Sitka Subheading;
+    margin-top: 140px;
+}
+
+.TextBox p {
+    width: 630px;
+    font-weight: 400;
+    font-family: Sitka Subheading;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.Shadow{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.Shadow .ShadowOne {
+    width: 380px;
+    height: 380px;
+    background-color: #F9E103;
+    opacity: 10%;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    z-index: -1;
+}
+
+
+.Shadow .ShadowTwo {
+    width: 40px;
+    height: 40px;
+    background-color: #D80303;
+    opacity: 40%;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 45px;
+}
+
+
+
+.Shadow .ShadowThree {
+    width: 20px;
+    height: 20px;
+    background-color: #F98506;
+    opacity: 45%;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    left: 180px;
+}
+
+
+
+
+.Shadow .ShadowFour {
+    width: 20px;
+    height: 20px;
+    background-color: #6C0382;
+    opacity: 40%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 320px;
+}
+
+
+
+
+.Shadow .ShadowFive {
+    width: 20px;
+    height: 20px;
+    background-color: #017A1B;
+    opacity: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px;
+    right: 0px;
+}
+
+
+
+
+.Image .imagephoto img {
+    width: 500px;
+    margin-top: 76px;
+    margin-left: 105px;
+    height: 600px;
+}
+
+
+.imageShadow{
+    position: relative;
+}
+
+
+.imageShadow .imageText{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Image .imageShadow img {
+    width: 780px;
+    height: 85px;
+    margin-left: -100px;
+    margin-top: -10px;
+}
+
+
+.imageText h6 {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: -6px;
+}
+
+.imageText p {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+
+.OutShadow{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+
+
+.ShadowPosition{
+    position: relative;
+}
+
+.OutShadow .Shadow{
+    width: 70px;
+    height: 70px;
+    background: #017A1B;
+    border-radius: 50%;
+}
+
+
+
+.OutShadow .Text {
+    width: 130px;
+    height: 85px;
+    background: #ffffff;
+    box-shadow: rgb(149 157 165 / 10%) 0px 8px 24px;
+    position: absolute;
+    top: 30px;
+    right: 27px;
+}
+
+
+.OutShadow .Text h6 {
+    color: #017A1B;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+
+
+.outImages img {
+    position: absolute;
+    bottom: -160px;
+    left: 10px;
+    width: 80px;
+}
+
+
+
+.TextBox .ButtomBorder {
+    font-size: 20px;
+    border-bottom: 3px solid #f98506;
+    padding: 10px 0px;
+    width: 200px;
+    cursor: pointer;
+}
