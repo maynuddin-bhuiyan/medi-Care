@@ -2,6 +2,7 @@
 
 
 #Start
+======
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -73,9 +74,8 @@ Opportunity
 
 
 
-The home page has 8 parts, 
+The home page has 10 parts, 
 like, 
-
 
 Navigation, 
 Home, 
@@ -89,22 +89,16 @@ Review,
 Footer 
 
 
-
 And there has a Login and Registration page.
-
 
 
 
 #Website Details:
 -----------------
-
-
 Medicare is the federal health insurance program for:
 People who are 65 or older
 Certain younger people with disabilities
 People with End-Stage Renal Disease (permanent kidney failure requiring dialysis or a transplant, sometimes called ESRD).
-
-
 
 Medicare Part A (Hospital Insurance)
 Part A covers inpatient hospital stays, care in a skilled nursing facility, hospice care, and some home health care.
@@ -115,8 +109,8 @@ Helps cover the cost of prescription drugs (including many recommended shots or 
 
 
 
-#Some Product Details
-
+#Some Product Details:
+----------------------
 Reviews 33 Reviews
 Name : Transfer Potent 1100mm*650mm*360mm China Electric Patient Lift Medical Instrument Bhh
 Warranty: 1 Year
@@ -174,6 +168,7 @@ Stay Healthy, Stay Safe!
 
 
 #End
+=====
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
