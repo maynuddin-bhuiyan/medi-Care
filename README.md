@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Start
+=====
 
-In the project directory, you can run:
 
-### `npm start`
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Website Name:
+--------------
 
-### `npm run build`
+MediCare And Url Name (medicare-dc157.web.app)
+========
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+the website is based on  Doctor And Medicine.
+---------------------------------------------
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#Let's talk about used technical skills:
+-----------------------------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Frontend Skills:
+----------------
+Programming languages: JavaScript (ES6).
+Other languages: HTML5, CSS3.
+JavaScript Libraries: ReactJS, jQuery, react router dom v6, react router dom, react hash link.
+CSS Frameworks:  Material UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Backend skills:
+---------------
+Back-End Frameworks: Express, Node.js. 
+Databases: MongoDB.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+APIs Skills:
+------------
+API:  REST API, JSON API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Other Skills:
+-------------
+Tools: Npm, Git.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#Website Tittle:
+-----------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+The website is based on We are Achieve the Success of Heart Surgery.
+
+The website is a header part in the top part, it's called Navigation,
+
+Navigation is, 
+Home, 
+About,
+LabTest,
+Opportunity
+
+
+
+
+
+
+The home page has 10 parts, 
+like, 
+
+Navigation, 
+Home, 
+About,
+Make An Appointment,
+LabTest,
+Opportunity
+Some of our available and Top Searched Specialties,
+Partners, 
+Review, 
+Footer 
+
+
+And there has a Login and Registration page.
+
+
+
+#Website Details:
+-----------------
+Medicare is the federal health insurance program for:
+People who are 65 or older
+Certain younger people with disabilities
+People with End-Stage Renal Disease (permanent kidney failure requiring dialysis or a transplant, sometimes called ESRD).
+
+Medicare Part A (Hospital Insurance)
+Part A covers inpatient hospital stays, care in a skilled nursing facility, hospice care, and some home health care.
+Medicare Part B (Medical Insurance)
+Part B covers certain doctors' services, outpatient care, medical supplies, and preventive services.
+Medicare Part D (prescription drug coverage)
+Helps cover the cost of prescription drugs (including many recommended shots or vaccines).
+
+
+
+#Some Product Details:
+----------------------
+Reviews 33 Reviews
+Name : Transfer Potent 1100mm*650mm*360mm China Electric Patient Lift Medical Instrument Bhh
+Warranty: 1 Year
+Categories: Patient Lift
+Certification: ISO13485
+Price : 4100
+
+
+
+
+
+
+
+
+
+#Important Link
+----------------
+
+
+
+
+And UI/Website LiveSiteLink.  https://medicare-dc157.web.app/,
+
+And Server Site  LiveSiteLink. https://fierce-hamlet-51364.herokuapp.com/properties,
+
+
+
+
+Github Clint SiteLink is https://github.com/uxmain/medi-Care
+Github Server SiteLink is https://github.com/uxmain/mediCareServer
+
+
+
+
+
+One More Thing,
+
+
+#Applaud message for you
+-------------------------
+
+
+Thank You,
+
+for your time and consideration. I look forward to speaking with you about your project.
+Stay Healthy, Stay Safe!
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+End
+=====
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
