@@ -4,6 +4,7 @@ import BookingAppointment from '../../BookingAppointment/BookingAppointment';
 import './Appointment.css';
 import AppointmentPhoto from '../../../images/Appointment.png';
 
+
 const Appointment = () => {
 
 
@@ -32,7 +33,12 @@ const Appointment = () => {
 
                         </div>
 
+                       
+
                         <Button onClick={handleOpen} sx={{ width: '100%', height: "60px", marginTop: '200px !important' }} className='Button'>Appointment</Button>
+                       
+
+                        
                     </div>
 
 
@@ -40,11 +46,15 @@ const Appointment = () => {
                 </div>
 
             </div>
+        
+
             <BookingAppointment
                 handleClose={handleClose}
                 appointmentOpen={appointmentOpen}
 
             />
+            
+            
 
 
         </>

@@ -8,6 +8,9 @@ import Authprovider from './Page/Context/Authprovider';
 import Login from './Page/Login/Login/Login';
 import PrivateRoute from './Page/Login/PrivateRouter/PrivateRouter';
 import Registration from './Page/Login/Registration/Registration';
+import Dashboard from './Page/Dashboard/Dashboard/Dashboard';
+
+
 
 function App() {
   return (
@@ -19,12 +22,25 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
 
+
+
+
+
+            
+
             <Route path="/login" element={<Login />} />
             <Route path="/registration" element={<Registration />} />
 
             <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
             <Route path="/help" element={<Help />} />
+            
+
             <Route path="/propertieDetails/:id" element={<PrivateRoute> <PropertieDetails /> </PrivateRoute>} />
+
+
+            <Route path="/dashboard" element={<PrivateRoute> <Dashboard /> </PrivateRoute>} />
+
+            
 
 
 

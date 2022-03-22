@@ -6,6 +6,7 @@ import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import DatePicker from '@mui/lab/DatePicker';
 import Modal from '@mui/material/Modal';
 import './BookingAppointment.css';
+import useAuth from '../Hooks/useAuth';
 
 const style = {
   position: 'absolute',
@@ -25,7 +26,14 @@ const style = {
 const BookingAppointment = ({ appointmentOpen, handleClose }) => {
   const [value, setValue] = React.useState(null);
 
-  const [Logindata, setLogindata] = useState({});
+  const { user } = useAuth();
+
+
+
+  const initualInfo = { user: user?.name, number: '', email: "", subject: "", time: "" };
+
+  const [Logindata, setLogindata] = useState(initualInfo);
+
 
 
   const onBlure = blure => {
@@ -39,14 +47,39 @@ const BookingAppointment = ({ appointmentOpen, handleClose }) => {
 
 
   const hendalSubmit = () => {
-    if (Logindata.value === "") {
-      alert('Invalid input, please fill it.')
+
+    const appointment = {
+      ...Logindata,
+
+    }
+    console.log(appointment);
+
+
+
+
+
+    if (appointment.number && appointment.user && appointment.subject == "") {
+      alert('Wrong')
+    }
+
+    else if (appointment.number && appointment.user && appointment.subject !== "") {
+
+      fetch('https://fierce-hamlet-51364.herokuapp.com/appointment', {
+        method: "POST",
+        headers: {
+          'content-type': 'application/json'
+        },
+        body: JSON.stringify(appointment)
+      })
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          alert('Thank you appointment successfull done.')
+        })
 
     }
 
-    else {
-      alert('This is a success alert — check it out! Thanks')
-    }
+
 
 
   }
@@ -91,7 +124,19 @@ const BookingAppointment = ({ appointmentOpen, handleClose }) => {
             type="email"
             name='email'
             onBlur={onBlure}
-            sx={{ marginBottom: "50px" }}
+            sx={{ marginBottom: "10px" }}
+
+
+
+          />
+          <TextField
+            id="standard-basic"
+            label="Time"
+            variant="standard"
+            type='time'
+            name='time'
+            onBlur={onBlure}
+            sx={{ marginLeft: "20px" }}
 
 
 
@@ -103,9 +148,9 @@ const BookingAppointment = ({ appointmentOpen, handleClose }) => {
             label="Subject"
             variant="standard"
             type="text"
-            sx={{ marginBottom: "10px", marginLeft: '20px' }}
+            sx={{ marginBottom: "30px", marginLeft: '0px' }}
             className="InputText"
-            name='text'
+            name='subject'
             onBlur={onBlure}
 
 
@@ -115,10 +160,13 @@ const BookingAppointment = ({ appointmentOpen, handleClose }) => {
             <DatePicker
               label="Select date in your range "
               value={value}
+
               onChange={(newValue) => {
                 setValue(newValue);
               }}
-              renderInput={(params) => <TextField {...params} />}
+              renderInput={(params) => <TextField
+
+                {...params} />}
             />
           </LocalizationProvider>
 

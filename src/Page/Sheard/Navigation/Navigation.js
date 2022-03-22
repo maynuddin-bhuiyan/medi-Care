@@ -14,6 +14,7 @@ import { HashLink } from 'react-router-hash-link';
 import './Navigation.css';
 import { Button } from '@mui/material';
 import useAuth from '../../Hooks/useAuth';
+import { Link } from 'react-router-dom';
 
 
 
@@ -52,13 +53,19 @@ const Navigation = () => {
 
 
                   user?.email ?
-                    <Button sx={{ marginLeft: "20px", border: "none", backgroundColor: "#F98506", color: "#000000", padding: "10px" }} className="Itam-login" variant="outlined" onClick={logOutUser}> LogOut</Button>
 
+                    <Box sx={{display: "grid", gridTemplateColumns: "repeat(2, 1fr)", marginLeft: '30px'}}>
+                    <Link className='ItamBottom' to="dashboard">
+                      <Button sx={{ marginLeft: "0px", color: "#000000", padding: "10px", fontWeight: "700", marginTop: "-7px" , fontSize: "15px" }} className="Itam-login" variant="outlined" >Dashboard</Button>
+                      </Link>                   
+
+                    <Button sx={{ marginLeft: "5px", border: "none", backgroundColor: "#F98506", color: "#000000", height: "45px", marginTop: "-70px" , fontWeight: "700", fontSize: "15px", width: "80px" }} className="Itam-login" variant="outlined" onClick={logOutUser}> LogOut</Button>
+                    </Box>
                     :
-
-                    <li></li>
-
-
+                   
+                    <Link className='ItamBottom' to="login">
+                      <li> <h6>Login</h6> </li>
+                      </Link>
 
 
                 }

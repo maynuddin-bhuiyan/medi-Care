@@ -1,0 +1,8 @@
+.Appointments{
+    width: 900px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(151, 151, 151);
+    margin: 10px;
+    border-radius: 7px;
+}
